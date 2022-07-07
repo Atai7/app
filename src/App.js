@@ -10,10 +10,13 @@ function App() {
         <div className="container">
           <div className="nav-title">
             <h2 className="main-title">Check out our latest article</h2>
+            <div className="border"> </div>
           </div>
           <div className="news-cards">
             <div className="card-syringe">
+              <div className="image-block">
               <img className="card-image" src={syringe} alt="" />
+              </div>
               <div className="info-card">
                 <h3 className="title-card">
                   Disease detection, check up in the laboratory
@@ -28,7 +31,9 @@ function App() {
               </div>
             </div>
             <div className="card-syringe">
+            <div className="image-block">
               <img className="card-image" src={doctor} alt="" />
+              </div>
               <div className="info-card">
                 <h3 className="title-card">
                   Herbal medicines that are safe for consumption
@@ -43,7 +48,9 @@ function App() {
               </div>
             </div>
             <div className="card-syringe">
+            <div className="image-block">
               <img className="card-image" src={woman} alt="" />
+              </div>
               <div className="info-card">
                 <h3 className="title-card">
                   Natural care for healthy facial skin
