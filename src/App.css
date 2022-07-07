@@ -1,5 +1,4 @@
 .App {
-    text-align: center;
     font-family: 'Mulish', sans-serif;
     @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700;800;900&display=swap');
 }
@@ -15,22 +14,33 @@
     color: white;
 }
 
-.title {
+.main-title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .header {
     margin: 0 auto;
 }
 
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .card-syringe {
     width: 350px;
-    height: 512px;
+    height: 480px;
     border-radius: 20px;
     background: #FFFFFF;
-    /* drop shadow */
+    margin-right: 30px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.card-syringe:nth-child(3) {
+    margin-right: none;
 }
 
 .card-image {
@@ -41,13 +51,18 @@
 
 .info-card {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .title-card {
-    width: 250px;
+    width: 260px;
     font-weight: 700;
     font-size: 21px;
+    height: 64px;
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
 .discription-card {
@@ -55,6 +70,8 @@
     color: #7D7987;
     font-weight: 200;
     font-size: 16px;
+    height: 80px;
+    margin: 0;
 }
 
 .link-button {
@@ -63,6 +80,32 @@
     color: #4089ED;
 }
 
-.news-card {
+.news-cards {
     display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
 }
+
+.btn-view-all {
+    text-decoration: none;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 30px;
+    padding-right: 46px;
+    padding-left: 46px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 500;
+}
+
+@media screen and(max-width:980px) {
+    .card-syringe {
+        width: 40%;
+    }
+}
+
+@media screen and(max-width:640px) {}
+
+@media screen and(max-width:500px) {}
+
+@media screen and(max-width:640px) {}
